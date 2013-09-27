@@ -137,13 +137,4 @@ window.addEventListener('DOMContentLoaded', function() {
     }
     img.src = response.result;
   });
-
-  
-  // loadImage(testURL, function(response, requested_uri) {
-  //   blobContent = response;
-  //   img.src = window.webkitURL.createObjectURL(blobContent);
-
-    
-  // });
-
 });
